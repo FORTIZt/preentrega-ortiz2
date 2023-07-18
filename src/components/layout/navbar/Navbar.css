@@ -1,0 +1,29 @@
+.containerNavbar {
+  width: 100%;
+  height: 7.5vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(65, 65, 65);
+  align-items: center;
+  padding: 10px;
+}
+.containerNavbar a {
+  text-decoration: none;
+  color: #000000;
+}
+.categories {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+}
+.categories a {
+  background-color: rgb(255, 255, 255);
+  padding: 7px;
+  color: #000000;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  text-decoration: none;
+}
